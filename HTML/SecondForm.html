@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Forms</title>
+  </head>
+  <body>
+    <form action="https://www.google.com/search">
+      <input type="text" name="q" />
+      <button>Search On Google</button>
+    </form>
+    <form action="https://www.youtube.com/results">
+      <input type="text" name="search_query" />
+      <button>Search On YouTube</button>
+    </form>
+    <h2>More INputs</h2>
+    <form>
+      <input type="checkbox" name="" id="age" />
+      <label for="age">Above 18 years</label>
+      <p>
+          <h4>Select SIze</h4>
+          <label for="s">Small</label>
+          <input name="size" id="s" type="radio">
+          <label for="m">Medium</label>
+          <input name="size" id="m" type="radio">
+          <label for="l">Large</label>
+          <input name="size" id="l" type="radio">
+      </p>
+      <p>
+          <label for="sub">Select Subject</label>
+          <select name="" id="sub">
+              <option value="M">Maths</option>
+              <option value="S" selected>Science</option>
+              <option value="E">English</option>
+              <option value="C">Computer</option>
+          </select>
+      </p>
+      <p>
+          <label for="banana">Select amount of Bananas :</label>
+          <input type="range" name="" id="banana" min="1" max="5">
+      </p>
+      <label for="fbt">Feedback Text</label>
+      <textarea id="fbt" rows="3" cols="30"></textarea>
+    </form>
+  </body>
+</html>

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Marathon Form</title>
+  </head>
+  <body>
+    <h2>Race Registration Form</h2>
+    <form action="ggs.com">
+      <label for="fname">First Name:</label>
+      <input type="text" id="fname" required />
+      <label for="lname">Last Name:</label>
+      <input type="text" id="lname" required />
+      <p>
+        <h3>Select A Race : </h3>
+        <div> <label for="kms1">5KMs</label>
+            <input type="radio" name="race" id="kms1" /></div>
+        <div><label for="kms2">21KMs</label>
+            <input type="radio" name="race" id="kms2" /></div>
+        <div>
+            <label for="kms3">42KMs</label>
+            <input type="radio" name="race" id="kms3" /></div>
+      </p>
+      <label for="mail">Email</label>
+      <input type="email" id="mail" required>
+      <label for="pass">Password</label>
+      <input type="password" id="pass">
+      <p>
+        <label for="age">Select a AGE :</label>
+        <select name="" id="age" required>
+          <option>Below 18</option>
+          <option>18-40</option>
+          <option>above 40</option>
+        </select>
+      </p>
+      <button>Register</button>
+    </form>
+  </body>
+</html>

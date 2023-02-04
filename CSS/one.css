@@ -1,0 +1,16 @@
+section {
+  height: 500px;
+  width: 500px;
+  background-color: coral;
+}
+#alpha {
+  height: 50%;
+  width: 50%;
+  background-color: rgba(69, 40, 231, 0.2);
+}
+#opacity {
+  height: 50%;
+  width: 50%;
+  background-color: #ffabfa;
+  opacity: 0.5;
+}

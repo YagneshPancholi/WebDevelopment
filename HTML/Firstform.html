@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form</title>
+  </head>
+  <body>
+    <h1>Form</h1>
+
+    <!-- abc.txt?username=fds&age=33&password=e1e&colour=%23f11e1e&date=2022-01-07 -->
+    <form action="abc.txt">
+      <p>
+        <label for="username">Name : </label>
+        <input
+          type="text"
+          id="username"
+          placeholder="Enter name"
+          name="username"
+        />
+      </p>
+      <p>
+        <label for="age">Age : </label>
+        <input type="number" id="age" placeholder="Enter age" name="age" />
+      </p>
+      <p>
+        <label for="pw">Password : </label>
+        <input
+          type="password"
+          id="pw"
+          placeholder="Enter Password"
+          name="password"
+        />
+      </p>
+      <p>
+        <label for="color">Colour : </label>
+        <input
+          type="color"
+          id="color"
+          placeholder="choose a colour"
+          name="colour"
+        />
+      </p>
+      <p>
+        <label>
+          Date :
+          <input type="date" name="date" />
+        </label>
+      </p>
+      <button type="button">Submit</button>
+      <button type="submit">Submit</button>
+      <input type="submit" value="ClickTOSubmit" />
+    </form>
+  </body>
+</html>
